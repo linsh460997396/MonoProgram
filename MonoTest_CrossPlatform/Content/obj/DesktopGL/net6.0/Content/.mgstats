@@ -1,2 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "D:/VSWork/2022/MonoProgram/MonoTest_CrossPlatform/Content/ball.png","D:/VSWork/2022/MonoProgram/MonoTest_CrossPlatform/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.4044824
+"D:/VSWork/2022/MonoProgram/MonoTest_CrossPlatform/Content/mm_map.png","D:/VSWork/2022/MonoProgram/MonoTest_CrossPlatform/Content/bin/DesktopGL/Content/mm_map.xnb","TextureProcessor","Texture2DContent",59758,483413,0.451256

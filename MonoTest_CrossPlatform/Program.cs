@@ -1,3 +1,3 @@
 ﻿
-using var game = new MonoTest_CrossPlatform.GameMain();
+using var game = new MonoMain.GameMain();
 game.Run();

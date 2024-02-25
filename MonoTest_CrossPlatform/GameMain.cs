@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace MonoTest_CrossPlatform
+namespace MonoMain
 {
     public class GameMain : Game
     {
@@ -92,7 +92,7 @@ namespace MonoTest_CrossPlatform
 
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
-            //_spriteBatch.Draw(ballTexture, new Vector2(0, 0), Color.White);
+            //_spriteBatch.Draw(ballTexture, new Vector2F(0, 0), Color.White);
             //_spriteBatch.Draw(ballTexture, ballPosition, Color.White);
             _spriteBatch.Draw(ballTexture, ballPosition, null, Color.White, 0f, new Vector2(ballTexture.Width / 2, ballTexture.Height / 2), Vector2.One, SpriteEffects.None, 0f);
             _spriteBatch.Draw(_pixelBlockTexture, new Vector2(200, 200), Color.White); // 在(200, 200)位置绘制像素块

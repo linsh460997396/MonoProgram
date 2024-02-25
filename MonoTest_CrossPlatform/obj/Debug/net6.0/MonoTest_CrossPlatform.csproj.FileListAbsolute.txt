@@ -24,3 +24,4 @@ D:\VSWork\2022\MonoProgram\MonoTest_CrossPlatform\obj\Debug\net6.0\refint\MonoTe
 D:\VSWork\2022\MonoProgram\MonoTest_CrossPlatform\obj\Debug\net6.0\MonoTest_CrossPlatform.pdb
 D:\VSWork\2022\MonoProgram\MonoTest_CrossPlatform\obj\Debug\net6.0\MonoTest_CrossPlatform.genruntimeconfig.cache
 D:\VSWork\2022\MonoProgram\MonoTest_CrossPlatform\obj\Debug\net6.0\ref\MonoTest_CrossPlatform.dll
+D:\VSWork\2022\MonoProgram\MonoTest_CrossPlatform\bin\Debug\net6.0\Content\mm_map.xnb
