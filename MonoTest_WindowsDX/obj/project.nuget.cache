@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bG499bWad7QZ9AAq3wcLSL1QdQZhvzPVorXHr3BDYGJl1K2awI3r7nr2ihPmUWKuog9nmA1RzxjsBwONEkc1lQ==",
+  "dgSpecHash": "Kl+CuTI27EA=",
   "success": true,
   "projectFilePath": "D:\\VSWork\\2022\\MonoProgram\\MonoTest_WindowsDX\\MonoTest_WindowsDX.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\linsh\\.nuget\\packages\\sharpdx.xinput\\4.0.1\\sharpdx.xinput.4.0.1.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.buffers\\4.0.0\\system.buffers.4.0.0.nupkg.sha512",
+    "C:\\Users\\linsh\\.nuget\\packages\\system.codedom\\10.0.5\\system.codedom.10.0.5.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.collections.concurrent\\4.0.12\\system.collections.concurrent.4.0.12.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.collections.immutable\\1.2.0\\system.collections.immutable.1.2.0.nupkg.sha512",
@@ -70,6 +71,7 @@
     "C:\\Users\\linsh\\.nuget\\packages\\system.linq.expressions\\4.1.1\\system.linq.expressions.4.1.1.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.linq.parallel\\4.0.1\\system.linq.parallel.4.0.1.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.linq.queryable\\4.0.1\\system.linq.queryable.4.0.1.nupkg.sha512",
+    "C:\\Users\\linsh\\.nuget\\packages\\system.management\\10.0.5\\system.management.10.0.5.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.net.http\\4.1.2\\system.net.http.4.1.2.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.net.nameresolution\\4.0.0\\system.net.nameresolution.4.0.0.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.net.primitives\\4.0.11\\system.net.primitives.4.0.11.nupkg.sha512",
@@ -124,11 +126,7 @@
     "C:\\Users\\linsh\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\linsh\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\linsh\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\linsh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\linsh\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\linsh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\linsh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+    "C:\\Users\\linsh\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -36,3 +36,5 @@ D:\VSWork\2022\MonoProgram\MonoTest_WindowsDX\obj\Debug\net6.0-windows\refint\Mo
 D:\VSWork\2022\MonoProgram\MonoTest_WindowsDX\obj\Debug\net6.0-windows\MonoTest_WindowsDX.pdb
 D:\VSWork\2022\MonoProgram\MonoTest_WindowsDX\obj\Debug\net6.0-windows\MonoTest_WindowsDX.genruntimeconfig.cache
 D:\VSWork\2022\MonoProgram\MonoTest_WindowsDX\obj\Debug\net6.0-windows\ref\MonoTest_WindowsDX.dll
+D:\VSWork\2022\MonoProgram\MonoTest_WindowsDX\bin\Debug\net6.0-windows\System.CodeDom.dll
+D:\VSWork\2022\MonoProgram\MonoTest_WindowsDX\bin\Debug\net6.0-windows\System.Management.dll

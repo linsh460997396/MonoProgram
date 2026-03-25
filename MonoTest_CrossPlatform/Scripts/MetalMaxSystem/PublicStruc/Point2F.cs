@@ -1,4 +1,16 @@
-﻿using Mathf = System.MathF;
+﻿//#define UNITY_STANDALONE //BepInEx制作UnityMOD时可手动启用
+//#define NETFRAMEWORK
+
+#if UNITY_EDITOR || UNITY_STANDALONE
+//↓Unity环境优先使用Unity的Mathf类
+using Mathf = UnityEngine.Mathf;
+#else
+#if NETFRAMEWORK
+using Mathf = System.Math;
+#else
+using Mathf = System.MathF;
+#endif
+#endif
 
 namespace MetalMaxSystem
 {
@@ -9,7 +21,7 @@ namespace MetalMaxSystem
     /// </summary>
     public struct Point2F
     {
-        //全局变量，不加static则意味着每个结构实例都有自己的变量副本（否则共享）
+        //全局变量,不加static则意味着每个结构实例都有自己的变量副本(否则共享)
 
         public float x;
         public float y;
@@ -30,7 +42,11 @@ namespace MetalMaxSystem
         {
             float dx = otherPoint.x - x;
             float dy = otherPoint.y - y;
+#if NETFRAMEWORK
+            return (float)Mathf.Sqrt(dx * dx + dy * dy);
+#else
             return Mathf.Sqrt(dx * dx + dy * dy);
+#endif
         }
 
         public static Point2F operator +(Point2F point1, Point2F point2)

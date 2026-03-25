@@ -1,4 +1,14 @@
-﻿using Vector2F = Microsoft.Xna.Framework.Vector2;
+﻿//#define UNITY_STANDALONE //BepInEx制作UnityMOD时可手动启用
+#define MonoGame //MonoGame插件下启用(包括XNA框架)
+#if UNITY_EDITOR || UNITY_STANDALONE
+//Unity编辑器、独立应用程序(不包括Web播放器)
+using Vector2F = UnityEngine.Vector2;
+#elif MonoGame
+//使用VS2022的MonoGame插件框架
+using Vector2F = Microsoft.Xna.Framework.Vector2;
+#else
+using Vector2F = System.Numerics.Vector2;
+#endif
 
 namespace MetalMaxSystem
 {
@@ -26,7 +36,7 @@ namespace MetalMaxSystem
         }
 
         /// <summary>
-        /// 目标类型：0=无，1=单位，2=二维点，3=物品
+        /// 目标类型:0=无,1=单位,2=二维点,3=物品
         /// </summary>
         public int TargetType { get; set; }
 
