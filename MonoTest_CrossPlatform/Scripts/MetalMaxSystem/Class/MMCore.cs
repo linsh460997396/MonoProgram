@@ -2,8 +2,7 @@
 //↓制作UnityMOD环境下启用(如BepInEx)
 //#define UNITY_STANDALONE
 
-//↓MonoGame插件下启用(包括XNA框架)
-#define MonoGame
+#define MonoGame //MonoGame插件下启用(包括XNA框架)
 
 //#if !(UNITY_EDITOR || UNITY_STANDALONE || NET5_0_OR_GREATER)
 //↓非Unity、NET5以上环境则启用NETFRAMEWORK
